@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T2009M", "T2009M\T2009M.csproj", "{27BFE621-0A99-4673-993D-8F35F94196D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baitap", "Baitap\Baitap.csproj", "{55620917-FDDF-4F4F-9724-0D18E2C466CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BFE621-0A99-4673-993D-8F35F94196D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BFE621-0A99-4673-993D-8F35F94196D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BFE621-0A99-4673-993D-8F35F94196D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BFE621-0A99-4673-993D-8F35F94196D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55620917-FDDF-4F4F-9724-0D18E2C466CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55620917-FDDF-4F4F-9724-0D18E2C466CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55620917-FDDF-4F4F-9724-0D18E2C466CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55620917-FDDF-4F4F-9724-0D18E2C466CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
