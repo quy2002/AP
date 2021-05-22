@@ -13,11 +13,10 @@ namespace ManageProduct.DTO
         {
             id = 1;
             name = "abc";
-            price = 3;
+            price = 30000;
             image = "cba";
             desc = 1;
             qty = 9;
-
         }
 
 
@@ -43,13 +42,13 @@ namespace ManageProduct.DTO
 
         public void ShowInfo()
         {
-            Console.WriteLine("Ten SV: " + name);
-            Console.WriteLine("Tuoi: " + id);
-            Console.WriteLine("Ten SV: " + price);
-            Console.WriteLine("Tuoi: " + image);
-            Console.WriteLine("Ten SV: " + desc);
-            Console.WriteLine("Tuoi: " + qty);
-            Console.WriteLine("Tuoi: " + gallery);
+            Console.WriteLine("Id: " + id);
+            Console.WriteLine("Ten SP: " + name);
+            Console.WriteLine("Gia: " + price);
+            Console.WriteLine("Anh: " + image);
+            Console.WriteLine("Giam dan: " + desc);
+            Console.WriteLine("So luong: " + qty);
+            Console.WriteLine("Bo suu tap: " + gallery);
 
         }
 
@@ -75,7 +74,7 @@ namespace ManageProduct.DTO
             {
                 gallery.Add(i);
                 var b = gallery.Count();
-                Console.WriteLine("So anh trong list gallery {0}", b);
+                Console.WriteLine("So anh trong list gallery la {0}", b);
                 var nameImageinGallery = gallery.ToArray();
                 for (int q = 0; q < nameImageinGallery.Count(); q++)
                 {
